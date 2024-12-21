@@ -27,9 +27,7 @@ This Device Management System is a web application built with Next.js that allow
 ## Future Features
 
 Example:
-\`\`\`markdown
 ![Device Management System Screenshot](/futurefeatures.PNG)
-\`\`\`
 
 The following features are planned for future development:
 
