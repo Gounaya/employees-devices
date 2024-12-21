@@ -28,7 +28,7 @@ This Device Management System is a web application built with Next.js that allow
 
 Example:
 \`\`\`markdown
-![Device Management System Screenshot](/your-screenshot-filename.png)
+![Device Management System Screenshot](/futurefeatures.PNG)
 \`\`\`
 
 The following features are planned for future development:
