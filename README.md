@@ -1,5 +1,7 @@
 # Device Management System
 
+![Device Management System Screenshot](/animation.gif)
+
 ## Overview
 
 This Device Management System is a web application built with Next.js that allows companies to manage their employees and devices efficiently. It provides a user-friendly interface for adding, updating, and deleting both employees and devices, as well as associating devices with employees.
@@ -26,7 +28,6 @@ This Device Management System is a web application built with Next.js that allow
 
 ## Future Features
 
-Example:
 ![Device Management System Screenshot](/futurefeatures.PNG)
 
 The following features are planned for future development:
