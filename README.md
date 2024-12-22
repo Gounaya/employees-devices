@@ -60,7 +60,6 @@ The following features are planned for future development:
 These planned features will enhance the functionality of the Device Management System, providing a more comprehensive solution for managing company devices and related processes.
 
 
-
 ## Technologies Used
 
 - Next.js 13 (App Router)
@@ -70,6 +69,30 @@ These planned features will enhance the functionality of the Device Management S
 - shadcn/ui components
 - SQLite 3 (for the backend database)
 - Express.js 4 (for the backend API)
+
+
+## Install Dependencies
+
+Open your terminal and run:
+```bash
+npm install
+```
+
+## Usage
+
+### Install All Dependencies
+
+To install all dependencies for both the client and the server, run:
+```bash
+npm run install-all
+```
+
+### Start the Front-End and Back-End
+
+To start both the front-end and the back-end simultaneously, run:
+```bash
+npm run start-all
+```
 
 ## Performance
 
