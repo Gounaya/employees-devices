@@ -55,15 +55,15 @@ router.delete('/:id', (req, res) => {
 });
 
 // Filtrer les employés par rôle
-router.get('/role/:role', (req, res) => {
-  const { role } = req.params;
-  db.all("SELECT * FROM employees WHERE role = ?", [role], (err, rows) => {
-    if (err) {
-      res.status(400).json({ error: err.message });
-      return;
-    }
-    res.json({ data: rows });
-  });
-});
+// router.get('/role/:role', (req, res) => {
+//   const { role } = req.params;
+//   db.all("SELECT * FROM employees WHERE role = ?", [role], (err, rows) => {
+//     if (err) {
+//       res.status(400).json({ error: err.message });
+//       return;
+//     }
+//     res.json({ data: rows });
+//   });
+// });
 
 export default router;

@@ -54,27 +54,27 @@ router.delete('/:id', (req, res) => {
 });
 
 // Filtrer les appareils par type
-router.get('/type/:type', (req, res) => {
-  const { type } = req.params;
-  db.all("SELECT * FROM devices WHERE type = ?", [type], (err, rows) => {
-    if (err) {
-      res.status(400).json({ error: err.message });
-      return;
-    }
-    res.json({ data: rows });
-  });
-});
+// router.get('/type/:type', (req, res) => {
+//   const { type } = req.params;
+//   db.all("SELECT * FROM devices WHERE type = ?", [type], (err, rows) => {
+//     if (err) {
+//       res.status(400).json({ error: err.message });
+//       return;
+//     }
+//     res.json({ data: rows });
+//   });
+// });
 
 // Filtrer les appareils par propriétaire
-router.get('/owner/:owner', (req, res) => {
-  const { owner } = req.params;
-  db.all("SELECT * FROM devices WHERE owner = ?", [owner], (err, rows) => {
-    if (err) {
-      res.status(400).json({ error: err.message });
-      return;
-    }
-    res.json({ data: rows });
-  });
-});
+// router.get('/owner/:owner', (req, res) => {
+//   const { owner } = req.params;
+//   db.all("SELECT * FROM devices WHERE owner = ?", [owner], (err, rows) => {
+//     if (err) {
+//       res.status(400).json({ error: err.message });
+//       return;
+//     }
+//     res.json({ data: rows });
+//   });
+// });
 
 export default router;
